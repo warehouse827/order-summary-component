@@ -296,10 +296,23 @@ main {
   border-radius: 1em;
   display: block;
   padding: 1em;
-}
-.payment a {
   color: #ffffff;
   text-decoration: none;
+}
+.payment:hover {
+  background-color: #6d63db;
+}
+.change {
+  color: var(--grt-color);
+}
+.change:hover {
+  color: var(--grt-color-accent);
+}
+.cancel-order {
+  color: var(--grt-color);
+}
+.cancel-order:hover {
+  color: var(--grt-color-accent);
 }
 .annual-plan {
   color: #1f2e55;
